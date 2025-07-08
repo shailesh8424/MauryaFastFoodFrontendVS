@@ -963,7 +963,7 @@
 
             </div>
 
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+            <form action="https://formsubmit.co/shaileshmaurya9004@gmail.com" id="myForm" method="post"  data-aos="fade-up" data-aos-delay="600">
                 <div class="row gy-4">
 
                     <div class="col-md-6">
@@ -982,13 +982,14 @@
                         <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
                     </div>
 
-                    <div class="col-md-12 text-center">
-                        <div class="loading">Loading</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                     <!-- Required for proper formatting -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                <input type="hidden" name="_next" value="https://mauryafastfood.netlify.app/">
 
-                        <button type="submit">Send Message</button>
-                    </div>
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
 
                 </div>
             </form>
@@ -1226,3 +1227,23 @@
 </script>
 
 
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    // Trigger SweetAlert on form submission
+    document.getElementById('myForm').onsubmit = function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        // Show SweetAlert on button click
+        Swal.fire({
+            icon: 'success',
+            title: 'Success!',
+            text: 'Your message was sent successfully.',
+            confirmButtonText: 'OK'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // If user clicks OK, submit the form
+                document.getElementById('myForm').submit();
+            }
+        });
+    };
+</script>
