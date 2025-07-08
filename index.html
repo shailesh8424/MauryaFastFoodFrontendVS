@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Maurya Fast food </title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+<!-- Only Roboto (simple clean font) -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<style>
+    .selected-options {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .option-tag {
+        background-color: lightblue;
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .remove-icon {
+        margin-left: 5px;
+        cursor: pointer;
+        font-size: 1.1em;
+        
+    }
+    * {
+  font-family: 'Roboto', sans-serif !important;
+}
+</style>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="">
+         <h1 class="sitename">Maurya Fast Food</h1>
+        <span>.</span>
+      </a>
+
+        <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="#hero" class="active">Home<br></a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                     <li><a href="#book-a-table">Order Now</a></li>
+                       <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+
+      <a class="btn-getstarted" href="https://zomato.onelink.me/xqzv/icuk8ktv">Book a Table</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+ <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+        <div class="container">
+            <div class="row gy-4 justify-content-center justify-content-lg-between">
+                <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1 data-aos="fade-up"> Enjoy Authentic & Tasty Indian Street Food<br>Delicious Food</h1>
+                    <p data-aos="fade-up" data-aos-delay="100">We serve fresh, hygienic, and affordable snacks straight from the heart of Mumbai!</p>
+                    <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <a href="https://zomato.onelink.me/xqzv/icuk8ktv" class="btn-get-started">Booka a Order Now</a>
+                      
+                     </div>
+                </div>
+                <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+                    <img src="assets/img/hero2.png" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+        <!-- /Hero Section -->
+
+<!-- About Section -->
+    <section id="about" class="about section">
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>About Us<br></h2>
+            <p><span>Learn More</span> <span class="description-title">About Us</span></p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+                <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/img/about2.png" style="height:700px; width:100%;" class="img-fluid mb-4" alt="">
+                    <div class="book-a-table">
+                        <h3>Booka a Order Now</h3>
+                        <p>+91 8424845523</p>
+                    </div>
+                </div>
+                <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
+                    <div class="content ps-0 ps-lg-5">
+                        <p class="fst-italic">
+                            Welcome to Maurya Fast Food!
+                            Located in the heart of Borivali West, Mumbai – Maurya Fast Food is your go-to spot for fresh, delicious, and affordable Indian snacks.
+                        </p>
+                        <ul>
+                            <li><i class="bi bi-check-circle-fill"></i> <span>Our popular dishes include Vada Pav, Samosa Pav, Samosa, Cutlets, Bread Pakora, Palak Pakoda, and Jalebi.</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span>Every item is made with love, hygiene, and authentic flavors.</span></li>
+                            <li><i class="bi bi-check-circle-fill"></i> <span>We are known for quick service, tasty food, and a clean environment.</span></li>
+                        </ul>
+                        <p>
+                            Whether you're stopping by for a quick bite or craving something crispy and hot, Maurya Fast Food is always ready to serve you.
+                        </p>
+
+                        <div class="position-relative mt-4">
+                            <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /About Section -->
+     
+  <!-- Why Us Section -->
+    <section id="why-us" class="why-us section light-background">
+
+        <div class="container">
+
+            <div class="row gy-4">
+
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="why-box">
+                        <h3>Why Choose Maurya Fast Food?</h3>
+                        <p>
+                            Popular Local Spot
+                            Loved by students, workers, and families in the Borivali West area. ,
+
+                            Custom Combos & Offers
+                            Tasty combos like Samosa + Jalebi and more, at amazing prices! ,
+
+                            Quick Service
+                            Fast and friendly service – perfect for people on the go!
+                        </p>
+                        <div class="text-center">
+                            <a href="~/User/#" class="more-btn"><span>Learn More</span> <i class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div><!-- End Why Box -->
+
+                <div class="col-lg-8 d-flex align-items-stretch">
+                    <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-xl-4">
+                            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                <i class="bi bi-clipboard-data"></i>
+                                <h4>Fresh & Hygienic Food</h4>
+                                <p>We prepare every item fresh daily, using clean and hygienic practices.</p>
+                            </div>
+                        </div><!-- End Icon Box -->
+
+                        <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                <i class="bi bi-gem"></i>
+                                <h4>Affordable Prices</h4>
+                                <p>Enjoy delicious snacks like Vada Pav, Samosa, and Jalebi at pocket-friendly prices.</p>
+                            </div>
+                        </div><!-- End Icon Box -->
+
+                        <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                            <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                                <i class="bi bi-inboxes"></i>
+                                <h4>Authentic Taste of Mumbai</h4>
+                                <p>Taste the real flavor of street food with a homemade touch.</p>
+                            </div>
+                        </div><!-- End Icon Box -->
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Why Us Section -->
+
+   
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Our Menu</h2>
+            <p><span>Check Our</span> <span class="description-title">Maurya Fast Food Menu</span></p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+            
+            <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <li class="nav-item">
+                    <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+                        <h4>Sankies</h4>
+                    </a>
+                </li>  
+
+
+            </ul>
+
+            <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="tab-pane fade active show" id="menu-starters">
+
+                    <div class="tab-header text-center">
+                        <p>Menu</p>
+                        <h3>Sankies</h3>
+                    </div>
+
+                    <div class="row gy-5">
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/voda_pav.png" class="glightbox"><img src="assets/img/menu/voda_pav.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Vada Pav</h4>
+                            <p class="ingredients">
+                                Spicy mashed potato fritter in soft pav, served with chutney & fried chili
+                            </p>
+                            <p class="price">
+                                ₹10.00
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/samosa1.png" class="glightbox"><img src="assets/img/menu/samosa1.png" class="menu-img img-fluid"  alt=""></a>
+                            <h4>Samosa</h4>
+                            <p class="ingredients" >
+                                Crunchy samosa stuffed in pav, topped with tangy chutneys and spices
+                            </p>
+                            <p class="price">
+                                ₹08.00
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/samosa_pov.png" class="glightbox"><img src="assets/img/menu/samosa_pov.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Samosa Pav</h4>
+                            <p class="ingredients">
+                                Crunchy samosa stuffed in pav, topped with tangy chutneys and spices
+                            </p>
+                            <p class="price">
+                                ₹12.00
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/palak_pakodi.png" class="glightbox"><img src="assets/img/menu/palak_pakodi.png" class="menu-img img-fluid" alt=""></a>
+                            <h4> Palak Pakoda</h4>
+                            <p class="ingredients">
+                                Deep-fried spinach fritters served hot with chutney
+                            </p>
+                            <p class="price">
+                                ₹20.00 (100g)
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/PalakPakodaPav.png" class="glightbox"><img src="assets/img/menu/PalakPakodaPav.png" class="menu-img img-fluid" alt=""></a>
+                            <h4> Palak Pakoda Pav</h4>
+                            <p class="ingredients">
+                                Crispy spinach fritters tucked in a soft pav, served with tangy chutneys for a spicy bite
+                            </p>
+                            <p class="price">
+                                ₹15.00
+                            </p>
+                        </div><!-- Menu Item -->
+
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/bread pakodi.png" class="glightbox"><img src="assets/img/menu/bread pakodi.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Bread Pakoda</h4>
+                            <p class="ingredients">
+                                Bread slices stuffed with spicy potato filling, dipped in gram flour batter and deep-fried
+                            </p>
+                            <p class="price">
+                                ₹10.00
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/jalabi.png" class="glightbox"><img src="assets/img/menu/jalabi.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Jalebi</h4>
+                            <p class="ingredients">
+                                Crispy golden spirals soaked in saffron sugar syrup, served hot and fresh
+                            </p>
+                            <p class="price">
+                                ₹10.00 (250g)
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="assets/img/menu/combopack.png" class="glightbox">
+                                <img src="assets/img/menu/combopack.png" class="menu-img img-fluid" alt="Samosa Cutlet Jalebi Combo">
+                            </a>
+                            <h4>Samosa + Cutlet + Jalebi Combo</h4>
+                            <p class="ingredients">
+                                A delicious plate of spicy samosa, crispy vegetable cutlet, and hot fresh jalebi — perfect for a quick and satisfying meal.
+                            </p>
+                            <p class="price">
+                                ₹25.00
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div><!-- End Starter Menu Content -->
+
+                <div class="tab-pane fade" id="menu-breakfast">
+
+                    <div class="tab-header text-center">
+                        <p>Menu</p>
+                        <h3>Breakfast</h3>
+                    </div>
+
+                    <div class="row gy-5">
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-1.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Magnam Tiste</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $5.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-2.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Aut Luia</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $14.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-3.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Est Eligendi</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $8.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-4.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Eos Luibusdam</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $12.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-5.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Eos Luibusdam</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $12.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-6.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Laboriosam Direva</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $9.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                    </div>
+                </div><!-- End Breakfast Menu Content -->
+
+                <div class="tab-pane fade" id="menu-lunch">
+
+                    <div class="tab-header text-center">
+                        <p>Menu</p>
+                        <h3>Lunch</h3>
+                    </div>
+
+                    <div class="row gy-5">
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-1.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Magnam Tiste</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $5.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-2.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Aut Luia</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $14.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-3.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Est Eligendi</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $8.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-4.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Eos Luibusdam</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $12.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-5.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Eos Luibusdam</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $12.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-6.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Laboriosam Direva</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $9.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                    </div>
+                </div><!-- End Lunch Menu Content -->
+
+                <div class="tab-pane fade" id="menu-dinner">
+
+                    <div class="tab-header text-center">
+                        <p>Menu</p>
+                        <h3>Dinner</h3>
+                    </div>
+
+                    <div class="row gy-5">
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-1.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Magnam Tiste</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $5.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-2.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Aut Luia</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $14.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-3.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Est Eligendi</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $8.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-4.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Eos Luibusdam</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $12.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-5.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Eos Luibusdam</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $12.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                        <div class="col-lg-4 menu-item">
+                            <a href="~/User/assets/img/menu/menu-item-6.png" class="glightbox"><img src="~/User/assets/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                            <h4>Laboriosam Direva</h4>
+                            <p class="ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </p>
+                            <p class="price">
+                                $9.95
+                            </p>
+                        </div><!-- Menu Item -->
+
+                    </div>
+                </div><!-- End Dinner Menu Content -->
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Menu Section -->
+
+   <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>TESTIMONIALS</h2>
+            <p>What Are They <span class="description-title">Saying About Us</span></p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="swiper init-swiper">
+                <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 600,
+                      "autoplay": {
+                        "delay": 5000
+                      },
+                      "slidesPerView": "auto",
+                      "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                      }
+                    }
+                </script>
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="row gy-4 justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            <span>We are proud to be a part of this journey. Quality, hygiene, and taste — everything is top-notch!</span>
+                                            <i class="bi bi-quote quote-icon-right"></i>
+                                        </p>
+                                        <h3>Surendra Maurya</h3>
+                                        <h4>Ceo &amp; Founder</h4>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 text-center">
+                                    <img src="assets/img/testimonials/man user.jpg" class="img-fluid testimonial-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="row gy-4 justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            <span>I love the creativity in the menu and the way the dishes are presented. The Vada Pav and Cutlet are just perfect!</span>
+                                            <i class="bi bi-quote quote-icon-right"></i>
+                                        </p>
+                                        <h3>Shailesh Maurya</h3>
+                                        <h4>Designer</h4>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 text-center">
+                                    <img src="assets/img/testimonials/man user.jpg" class="img-fluid testimonial-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="row gy-4 justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            <span>Maurya Fast Food is now my regular spot. The Samosa Pav and Jalebi are always fresh and tasty!</span>
+                                            <i class="bi bi-quote quote-icon-right"></i>
+                                        </p>
+                                        <h3>Anchal Maurya</h3>
+                                        <h4>Store Owner</h4>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 text-center">
+                                    <img src="assets/img/testimonials/woman user.jpg" class="img-fluid testimonial-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="row gy-4 justify-content-center">
+                                <div class="col-lg-6">
+                                    <div class="testimonial-content">
+                                        <p>
+                                            <i class="bi bi-quote quote-icon-left"></i>
+                                            <span>Great place for evening snacks. Fast service and affordable prices. Must try their Palak Bhajiya!</span>
+                                            <i class="bi bi-quote quote-icon-right"></i>
+                                        </p>
+                                        <h3>Rani Maurya</h3>
+                                        <h4>Entrepreneur</h4>
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 text-center">
+                                    <img src="assets/img/testimonials/woman user.jpg" class="img-fluid testimonial-img" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Testimonials Section -->
+
+
+    
+   
+
+   
+    <!-- Book A Table Section -->
+    <section id="book-a-table" class="book-a-table section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Book A Table</h2>
+            <p><span>Book Your</span> <span class="description-title">Order With Us<br></span></p>
+        </div><!-- End Section Title -->
+
+       <div class="container">
+
+            <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="col-lg-4 reservation-img" style="background-image: url(assets/img/booknow.png);"></div>
+
+                <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
+                    <form action="/Home/BookOrder" method="post" class="w-100 p-4 shadow rounded bg-light">
+                        <h3 class="text-center mb-4">Order Your Favorite Food</h3>
+                        <div class="row gy-4">
+                            <div class="col-md-6">
+                                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="phone" class="form-control" placeholder="Your Phone" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="datetime-local" name="date" class="form-control" required>
+                            </div>
+
+                            <!-- Food Selection + Quantity -->
+                            <div class="col-md-5">
+                                <select id="foodSelect" class="form-select">
+                                    <option disabled selected>---Select Food---</option>
+                                     <option>Vada Pav</option>
+                                     <option>Samosa</option>
+                                     <option >Samosa Pav</option>
+                                     <option>Palak Pakoda</option>
+                                     <option>Palak Pakoda Pav</option>
+                                     <option>Jalebi</option>
+                                     <option>Samosa + Cutlet + Jalebi Combo</option>
+                                    
+                                  
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="text" id="foodQty" class="form-control" placeholder="Quantity (e.g., 2 pcs or 250g)">
+                            </div>
+                            <div class="col-md-3 text-center">
+                                <button type="button" id="addFoodBtn" class="btn btn-success w-100">+ Add Item</button>
+                            </div>
+
+                            <!-- Selected Items -->
+                            <div class="col-12">
+                                <label class="form-label"><strong>Selected Items with Quantity:</strong></label>
+                                <div id="selectedItems" class="selected-options"></div>
+                                <input type="hidden" name="SelectedMenuItems" id="SelectedMenuItems" />
+                            </div>
+
+
+                            <!-- Message -->
+                            <div class="col-12">
+                                <textarea class="form-control" name="message" rows="4" placeholder="Additional Message..."></textarea>
+                            </div>
+
+                            <!-- Submit -->
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-danger px-5" >Order Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /Book A Table Section -->
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <p><span>Check</span> <span class="description-title">Our Gallery</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 0
+                },
+                "768": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Gallery Section -->
+
+     <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Contact</h2>
+            <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+        </div><!-- End Section Title -->
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="mb-5">
+                <iframe style="width: 100%; height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.6832282612027!2d72.84688!3d19.2526325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b10ab2fab8bb%3A0x23c58f8a23eb9c94!2sMaurya%20Fast%20Food!5e0!3m2!1sen!2sin!4v1747205257844!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div><!-- End Google Maps -->
+
+            <div class="row gy-4">
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Gali No 9, Ganpat Patil Nagar, New Link Rood , Borivali West, Mumbai</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                        <i class="icon bi bi-telephone flex-shrink-0"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+91 8424845523</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                        <i class="icon bi bi-envelope flex-shrink-0"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>shaileshmaurya9004@gmail.com</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+                        <i class="icon bi bi-clock flex-shrink-0"></i>
+                        <div>
+                            <h3>Opening Hours<br></h3>
+                            <p><strong>Mon-Sun:</strong> 04.00PM - 11.00PM; </p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+            </div>
+
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+                <div class="row gy-4">
+
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    </div>
+
+                    <div class="col-md-6 ">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    </div>
+
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                        <button type="submit">Send Message</button>
+                    </div>
+
+                </div>
+            </form>
+            <!-- End Contact Form -->
+
+        </div>
+
+    </section>
+    <!-- /Contact Section -->
+  </main>
+
+ <footer id="footer" class="footer dark-background">
+
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-geo-alt icon"></i>
+                    <div class="address">
+                        <h4>Address</h4>
+                        <p>Gali No 9, Ganpat Patil Nagar, New Link Rood , Borivali West, Mumbai 400103  </p>
+                  
+                        <p></p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-telephone icon"></i>
+                    <div>
+                        <h4>Contact</h4>
+                        <p>
+                            <strong>Phone:</strong> <span>+91 8424845523</span><br>
+                            <strong>Email:</strong> <span>shaileshmaurya9004@gmail.com</span><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex">
+                    <i class="bi bi-clock icon"></i>
+                    <div>
+                        <h4>Opening Hours</h4>
+                        <p>
+                            <strong>Mon-Sun:</strong> <span>04:00PM - 11:00PM</span><br>
+                          
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4>Follow Us</h4>
+                    <div class="social-links d-flex">
+                        <a href="https://x.com/shailesh8424" class="twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.facebook.com/share/16WeQigk62/" class="facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.instagram.com/shaileshmaurya2?igsh=dGtlNTZydjV0aGhi" class="instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/shailesh-maurya-10952a2a4/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>
+                © <span>Copyright</span> <strong class="px-1 sitename"> Maurya Fast Food </strong> <span>All Rights Reserved</span>
+            </p>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <a href="https://www.instagram.com/shaileshmaurya2?igsh=dGtlNTZydjV0aGhi">Er Shailesh Maurya</a> 
+            </div>
+        </div>
+
+    </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+<!-- Include Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+<script>
+    const selectElement = document.getElementById('options');
+    const selectedOptionsDiv = document.getElementById('selected-options');
+
+    // Array to keep track of selected options
+    let selectedOptions = [];
+
+    // Function to display selected options
+    function displaySelectedOptions() {
+        selectedOptionsDiv.innerHTML = '<p>Selected Options:</p>';
+
+        // Display selected options with remove option
+        selectedOptions.forEach(option => {
+            const optionTag = document.createElement('span');
+            optionTag.classList.add('option-tag');
+            optionTag.textContent = option;
+
+            // Create remove icon
+            const removeIcon = document.createElement('i');
+            removeIcon.classList.add('bi', 'bi-x-circle', 'remove-icon');
+            removeIcon.addEventListener('click', () => removeOption(option));
+
+            // Append icon to option tag
+            optionTag.appendChild(removeIcon);
+
+            selectedOptionsDiv.appendChild(optionTag);
+        });
+    }
+
+    // Function to add option to selected list
+    function addOption(option) {
+        if (!selectedOptions.includes(option)) {
+            selectedOptions.push(option);
+        }
+        displaySelectedOptions();
+    }
+
+    // Function to remove option from selected list
+    function removeOption(option) {
+        selectedOptions = selectedOptions.filter(item => item !== option);
+        displaySelectedOptions();
+        // Also deselect it in the dropdown
+        const options = selectElement.querySelectorAll('option');
+        options.forEach(opt => {
+            if (opt.value === option) {
+                opt.selected = false;
+            }
+        });
+    }
+
+    // Event listener to handle changes in the select dropdown
+    selectElement.addEventListener('change', () => {
+        const selectedValues = Array.from(selectElement.selectedOptions).map(option => option.value);
+        selectedValues.forEach(value => addOption(value));
+    });
+
+</script>
+
+<script>
+    let selectedItemsArray = [];
+
+    document.getElementById("addFoodBtn").addEventListener("click", function () {
+        const food = document.getElementById("foodSelect").value;
+        const qty = document.getElementById("foodQty").value.trim();
+
+        if (food && qty) {
+            const entry = `${food} - ${qty}`;
+
+            // Avoid duplicates
+            if (!selectedItemsArray.includes(entry)) {
+                selectedItemsArray.push(entry);
+                updateSelectedItemsUI();
+            }
+
+            document.getElementById("foodQty").value = "";
+        } else {
+            alert("Please select a food and enter quantity.");
+        }
+    });
+
+    function updateSelectedItemsUI() {
+        const container = document.getElementById("selectedItems");
+        container.innerHTML = "";
+
+        selectedItemsArray.forEach((item, index) => {
+            const span = document.createElement("span");
+            span.className = "option-tag";
+            span.innerHTML = `${item} <span class="remove-icon" onclick="removeItem(${index})">❌</span>`;
+            container.appendChild(span);
+        });
+
+        // Update hidden input
+        document.getElementById("SelectedMenuItems").value = selectedItemsArray.join(", ");
+    }
+
+    function removeItem(index) {
+        selectedItemsArray.splice(index, 1);
+        updateSelectedItemsUI();
+    }
+</script>
+
+<!-- <script>
+  document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault(); // stop form from submitting to your server
+
+    // Optional: Show message
+    alert("🚀 Please place your order on Zomato!");
+
+    // Redirect to Zomato
+    window.location.href = "https://zomato.onelink.me/xqzv/icuk8ktv";
+  });
+</script> -->
+
+
+<!-- SweetAlert2 CSS + JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  document.querySelector('form').addEventListener('submit', function (e) {
+    e.preventDefault(); // Stop default form submission
+
+    Swal.fire({
+      title: 'Order on Zomato!',
+      text: 'Please place your order on Zomato using our official link.',
+      icon: 'info',
+      confirmButtonText: 'Go to Zomato'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.href = "https://zomato.onelink.me/xqzv/icuk8ktv";
+      }
+    });
+  });
+</script>
+
+
